@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T21:57:26.221250",
+  "generated_at": "2026-03-17T22:16:25.957653",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -441,6 +441,123 @@
           "avg_hr": 134,
           "max_hr": 134,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i132861482",
+      "date": "2026-03-17",
+      "type": "Run",
+      "name": "Jundia\u00ed - BLOCOS EM Z3 FRACIONADOS S2",
+      "interval_summary": [
+        "1x 5m1s 146bpm",
+        "3x 7m 170bpm",
+        "1x 34s 171bpm",
+        "1x 2s 175bpm",
+        "1x 80s 158bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "301s@146bpm75rpm",
+          "duration_secs": 301,
+          "avg_hr": 146,
+          "max_hr": 159,
+          "avg_cadence": 74.75748,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "420s@170bpm77rpm",
+          "duration_secs": 420,
+          "avg_hr": 164,
+          "max_hr": 177,
+          "avg_cadence": 77.542854,
+          "zone": 6
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 180,
+          "avg_hr": 165,
+          "max_hr": 177,
+          "avg_cadence": 74.844444,
+          "zone": 6
+        },
+        {
+          "type": "WORK",
+          "label": "420s@170bpm77rpm",
+          "duration_secs": 420,
+          "avg_hr": 171,
+          "max_hr": 179,
+          "avg_cadence": 77.578575,
+          "zone": 7
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 180,
+          "avg_hr": 169,
+          "max_hr": 174,
+          "avg_cadence": 76.68889,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "420s@170bpm77rpm",
+          "duration_secs": 420,
+          "avg_hr": 176,
+          "max_hr": 183,
+          "avg_cadence": 77.27857,
+          "zone": 7
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 180,
+          "avg_hr": 169,
+          "max_hr": 179,
+          "avg_cadence": 76.39445,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "34s@171bpm78rpm",
+          "duration_secs": 34,
+          "avg_hr": 171,
+          "max_hr": 175,
+          "avg_cadence": 78.44118,
+          "zone": 7
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 176,
+          "max_hr": 176,
+          "avg_cadence": 78.0,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "2s@175bpm78rpm",
+          "duration_secs": 2,
+          "avg_hr": 175,
+          "max_hr": 176,
+          "avg_cadence": 78.0,
+          "zone": 7
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 175,
+          "max_hr": 175,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "80s@158bpm23rpm",
+          "duration_secs": 80,
+          "avg_hr": 158,
+          "max_hr": 175,
+          "avg_cadence": 23.0375,
+          "zone": 5
         }
       ]
     }
