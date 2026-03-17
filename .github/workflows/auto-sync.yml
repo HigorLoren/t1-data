@@ -15,9 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Pull latest changes
-        run: git pull --rebase origin main
-      
       - name: Checkout repository
         uses: actions/checkout@v4
       
