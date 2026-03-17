@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-17T01:17:50.999133",
+    "last_updated": "2026-03-17T02:17:17.022699",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -184,8 +184,8 @@
       "ctl": 37.41,
       "atl": 42.05,
       "tsb": -4.64,
-      "ramp_rate": 1.43,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": 3.36,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 233.9,
@@ -376,19 +376,20 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 0,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-03-17"
+      ],
+      "completed_dates": []
     },
     "phase_detection": {
       "phase": "Base",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 1.03,
@@ -398,11 +399,11 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "hard_sessions_planned": 5,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_current_week": 1.6,
+          "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -413,9 +414,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Base",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -437,13 +436,13 @@
     "p_max": 589,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-17T01:17:50.997955",
+    "calculation_timestamp": "2026-03-17T02:17:17.021409",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 4,
       "activities_28d": 19,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -887,14 +886,123 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 99018405,
+      "date": "2026-03-17",
+      "name": "BLOCOS EM Z3 FRACIONADOS S2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": "5m | 5\u00d77m / 3m rec",
+      "description": "5' AQUECENDO EM Z1 (F\u00c1CIL)\n+\nREPITA 5X A SEQU\u00caNCIA ABAIXO:\n.\n7' - Z3 (LIGEIRAMENTE CANSATIVO)\n3' - Z1 (F\u00c1CIL)\n.\n\n- - - -\n- Warm up 5m 70-80% Pace\n\n5x\n- Hard 7m 88-94% Pace\n- Easy 3m 67-77% Pace"
+    },
+    {
+      "id": 99018406,
+      "date": "2026-03-17",
+      "name": "ENDURANCE MUSCULAR ESPEC\u00cdFICO S1",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "200 M AQUECENDO\n+\n4 X 50 M EDUCATIVO TIPO 1 SENDO (25M NADANDO S\u00d3 COM BRA\u00c7O ESQUERDO / 25M NADANDO S\u00d3 COM BRA\u00c7O DIREITO)\nI=30''\n+\n3 X 600 M A1 (LEVE-MODERADO) COM:\nPALMAR, FLUTUADOR, SNORKEL FRONTAL E P\u00c9S AMARRADOS COM C\u00c2MARA DE AR\nI=40''\n+\n200 M SOLTOS NO FINAL"
+    },
+    {
+      "id": 99018407,
+      "date": "2026-03-18",
+      "name": "BIG GEAR C/ SPRINT CONTROLADO RPM ALTA S1",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "5\u00d745s @284W / 1m15s rec | 7m @112W",
+      "description": "15' AQUECIMENTO PROGRESSIVO SENDO:\n5' - Z1 (F\u00c1CIL)\n5' - Z2 (RELATIVAMENTE F\u00c1CIL)\n5' - Z3 (LIGEIRAMENTE CANSATIVO)\n+\n5 X A SEQUENCIA ABAIXO:\n45'' - Z5 (MUITO CANSATIVO)\n1:45' - Z1 (F\u00c1CIL, RECUPERANDO)\n+\nREPITA 4 X A SEQUENCIA ABAIXO:\n3:30' - Z3 (LIGEIRAMENTE CANSATIVO) BIG GEAR 50-60 RPM\n0:30' - Z4 (CANSATIVO) RPM ALTA 90-100 RPM\n3' - Z1 (F\u00c1CIL)\n+\n7' GIRO LEVE NO FINAL\n\n- - - -\n\n1x\n- 5m 50-60%\n- 5m 56-75%\n- 5m 85-95%\n\n\n5x\n- Hard 0m45s 106-121%\n- Easy 1m15s 50-60%\n\n\n4x\n- Z3 3m30s 76-86% 50-60rpm\n- Z4 0m30s 91-103% 90-100rpm\n- Easy 3m 50-60% 80-90rpm\n\n- Cool Down 7m 40-50%"
+    },
+    {
+      "id": 99018408,
+      "date": "2026-03-19",
+      "name": "TIROS DE 400 M EM Z5 (VO2 MAX) S2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 1.05,
+      "duration_formatted": "1h2m58s",
+      "workout_summary": "10m @2W | 4\u00d736s @5W / 40s rec | 11 \u00d7 1\u00d72m24s @5W / 1m30s rec | 5m @2W",
+      "description": "10' AQUECENDO EM Z1 - Z2 (F\u00c1CIL)\n+\n4 X 100 M - Z5 PROGRESSIVO (V\u00c1 ACELERANDO AO LONGO DO TIRO)\nI=40''\n+\n11 X 400 M - Z5 (MUITO CANSATIVO)\nI=1:30\n+\n5' DESAQUECENDO EM Z1 - Z2 (F\u00c1CIL)\n\n- - - -\n- Z1 / Z2 solo 10m 70-83% Pace\n\n4x\n- Z4 / Z5 0.1km 95-105% Pace\n- Intervalo  0m40s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n\n1x\n- Z5 0.4km 106-120% Pace\n- Intervalo 1m30s 0% Pace\n\n- Z1 / Z2 solo 5m 70-83% Pace"
+    },
+    {
+      "id": 99018409,
+      "date": "2026-03-19",
+      "name": "T\u00c9CNICA SENSORIAL + LIMIAR S1",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "200 M AQUECENDO\n+\n4 X 50 M EDUCATIVO TIPO 2 (2 BRA\u00c7ADAS DE UM LADO / 2 BRA\u00c7ADAS DO OUTRO LADO)\nI=10''\n+\n4 X 25 M A3 (MUITO FORTE)\nI= TEMPO DE S\u00c9RIE, EX: FEZ EM 20'' DESCANSA 20'' SEG\n+\nREPITA 3 X A SEQU\u00caNCIA ABAIXO\n.\n100 M - A1 (LEVE-MODERADO) COM PALMAR NA M\u00c3O DIREITA E NADADEIRA NO P\u00c9 ESQUERDO\nI= 20''\n100 M - A1 (LEVE-MODERADO) COM PALMAR NA M\u00c3O ESQUERDA E NADADEIRA NO P\u00c9 DIREITO\nI= 20''\n100 M - A1 (LEVE-MODERADO) COM PALMAR E NADADEIRA EM AMBOS OS LADOS E SNORKEL FRONTAL\nI=20''\n200 M - A2 (MODERADO-FORTE) SEM MATERIAL, BUSCANDO UM TEMPO BOM NA S\u00c9RIE, BEM FIRME!\nI=40''\n.\n+\n200 M SOLTOS NO FINAL"
+    },
+    {
+      "id": 99018410,
+      "date": "2026-03-20",
+      "name": "Z3 ALT. CAD\u00caNCIA ALTA C/ BIG GEAR + PROG. Z4-5 S1",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 60,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "10m @112W | 4 \u00d7 1\u00d74m30s @208W / 1m rec | 3m @138W | 5m @112W",
+      "description": "10' GIRO LEVE AQUECENDO Z1\n+\n4:30' - Z3 (BIG GEAR) 'CADENCIA ALTA 85-95 RPM'\nI=1' - Z1 (F\u00c1CIL, GIRO LEVE)\n+\n4:30' - Z3 (BIG GEAR) 'CADENCIA BAIXA BIG GEAR 50-60 RPM'\nI=1' - Z1 (F\u00c1CIL, GIRO LEVE)\n+\n4:30' - Z3 (BIG GEAR) 'CADENCIA ALTA 85-95 RPM'\nI=1' - Z1 (F\u00c1CIL, GIRO LEVE)\n+\n4:30' - Z3 (BIG GEAR) 'CADENCIA BAIXA BIG GEAR 50-60 RPM'\nI=1' - Z1 (F\u00c1CIL, GIRO LEVE)\n+\n3' - GIRO LEVE RECUPERANDO\n+\n4 X A SEQUENCIA ABAIXO:\n.\n1' - Z4 (CANSATIVO)\n1' - Z5 (MUITO CANSATIVO)\n3' - Z2 (RELATIVAMENTE F\u00c1CIL)\n.\n+\n5' GIRO LEVE DESAQUECENDO Z1\n\n- - - -\n- Warm up 10m 40-50%\n\n1x\n- Z3 4m30s 76-91% 85-95rpm\n- Easy 1m 50-60%\n\n\n1x\n- Z3 BIG GEAR 4m30s 76-91% 50-60rpm\n- Easy 1m 50-60%\n\n\n1x\n- Z3 4m30s 76-91% 85-95rpm\n- Easy 1m 50-60%\n\n\n1x\n- Z3 BIG GEAR 4m30s 76-91% 50-60rpm\n- Easy 1m 50-60%\n\n- Recovery 3m 50-60%\n\n4x\n- Z4 1m 92-105%\n- Z5 1m 106-121%\n- Z2 3m 56-75%\n\n- Cool Down 5m 40-50%"
+    },
+    {
+      "id": 99018411,
+      "date": "2026-03-21",
+      "name": "2:30H - Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 99,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "description": "DIA DE FOCAR EM UM Z2 HONESTO, PURO E CONSTANTE, SEM ACELERA\u00c7\u00d5ES, POR\u00c9M SEM PEDALAR FOFO TAMB\u00c9M, ENCAIXA AQUELA TOCADA MODERADINHA E VAI!\n\n- - - -\n- Warm up 20m 50-60%\n- Active 120m 55-75%\n- Cool Down 10m 40-50%"
+    },
+    {
+      "id": 99018412,
+      "date": "2026-03-22",
+      "name": "Z2 (LONGO ENDURANCE COM EST\u00cdMULOS DE Z4) S2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "20m @2W | 6\u00d725s @4W / 35s rec | 20m @2W | 6\u00d725s @4W / 35s rec | 20m @2W | 6\u00d725s @4W / 35s rec | 12m @2W",
+      "description": "LONGO COM ACELERA\u00c7\u00d5ES!\n3X:\n.\n20' MIN. - Z1 - Z2 (F\u00c1CIL) FOCANDO EM BOA POSTURA E BOA T\u00c9CNICA DE CORRIDA\n+\n6X:\n25'' SEG. - Z4 (CANSATIVO, N\u00c3O M\u00c1XIMO)\n35'' SEG. - Z1 (F\u00c1CIL)\n.\n+\n12' CORRENDO EM Z1 - Z2 DESAQUECENDO\n\n- - - -\n- Z1 / Z2  20m 70-88% Pace\n\n6x\n- Z4 Teto 0m25s 98-101% Pace\n- Z1 / Z2 Solo 0m35s 70-84% Pace\n\n- Z1 / Z2  20m 70-88% Pace\n\n6x\n- Z4 Teto 0m25s 98-101% Pace\n- Z1 / Z2 Solo 0m35s 70-84% Pace\n\n- Z1 / Z2  20m 70-88% Pace\n\n6x\n- Z4 Teto 0m25s 98-101% Pace\n- Z1 / Z2 Solo 0m35s 70-84% Pace\n\n- Z1 / Z2  12m 70-88% Pace"
+    },
+    {
+      "id": 99018414,
+      "date": "2026-03-23",
+      "name": "DESCANSO",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": ""
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 6,
+    "success": 5,
+    "patternA": 5,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 1.27,
