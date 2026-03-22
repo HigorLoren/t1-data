@@ -1,46 +1,9 @@
 {
-  "generated_at": "2026-03-21T23:51:44.829651",
+  "generated_at": "2026-03-22T00:28:14.961535",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i132614286",
-      "date": "2026-03-14",
-      "type": "Ride",
-      "name": "Pedalada matinal",
-      "interval_summary": [
-        "1x 2h47m 156bpm",
-        "1x 8m11s 130bpm"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 112,
-          "max_hr": 112,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "10034s@156bpm62rpm",
-          "duration_secs": 10034,
-          "avg_hr": 156,
-          "max_hr": 182,
-          "avg_cadence": 61.772064,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "491s@130bpm58rpm",
-          "duration_secs": 491,
-          "avg_hr": 130,
-          "max_hr": 144,
-          "avg_cadence": 58.162933,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i132716107",
       "date": "2026-03-17",
